@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(255, 166, 0);
+    display: flex;
+    justify-content: flex-end;
+    /*coloca do lado direito*/
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: stretch;
+    /*colocando um do lado do outro*/
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /*centralizado em realação a altra do topo*/
+    height: 100px;
+    font-size: 25px;
+}
+
+li a {
+    padding: 0 26px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: crimson;
+}
+
+li a:hover {
+    background-color: #ca5419d3;
+    color: #fff;
+}
+
+img {
+    width: 350px;
+}
+
+body {
+    background-image: url(marmitas/fundo\ amarelo2.jpg);
+
+}
+
+.botao {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    text-align: center;
+}
+
+article {
+    text-align: center;
+}
+
+footer {
+    background-color:  #ca5419d3;
+}
+
+.fim {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    width: auto;
+    padding: 35px;
+    text-align: center;
+}
+h3{
+    font-family: serif;
+    font-size: 17px;
+}
